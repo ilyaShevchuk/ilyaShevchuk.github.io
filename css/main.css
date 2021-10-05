@@ -48,11 +48,6 @@ aside {
     font-style: italic;
     color: #29627e;
 }
-
-aside > p {
-    margin: .5rem;
-}
-
-p {
+aside > p  {
     font-family: 'Fira Sans', sans-serif;
 }
