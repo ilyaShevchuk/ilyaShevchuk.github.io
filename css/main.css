@@ -1,0 +1,58 @@
+header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+footer {
+  position: static;
+  padding: 1px 10px;
+  background: #1abc9c;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.card{
+    width: auto;
+    margin: 30px auto;
+    padding: 20px;
+    
+    background-color: #fff;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dl,
+dd {
+    font-size: 14px;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+
+aside {
+    width: 20%;
+    padding-left: 10px;
+    margin-left: 5px;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
