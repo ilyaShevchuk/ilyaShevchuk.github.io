@@ -1,0 +1,35 @@
+.error {
+    color: red;
+}
+
+.todo-item {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+}
+
+.p__completed-false {
+    background: red;
+}
+
+.p__completed-true {
+    background: #1ba43b;
+}
+
+.loader {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    position: 
+}

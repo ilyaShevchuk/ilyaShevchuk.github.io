@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="keywords" content="Резюме, Портфолио">
+    <meta name="description" content="Моё резюме">
+	<title>Шевчук Илья M33051</title>
+	<link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+	
+	<header>
+    <div class="menu">
+    <ul>
+        <li><a href="index.html" h>Главная</a></li>
+        <li><a href="table.html">Таблица</a></li>
+        <li><a href="list.html">Запрос</a></li>
+    </ul>
+    </div>
+    <h1>Резюме</h1>
+	</header>
+	<main>
+        <h1>text here</h1>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="Enter subject name" />
+            <select id="select">
+                <option value="monday">Понедельник</option>
+                <option value="tuesday">Вторник</option>
+                <option value="wensday">Среда</option>
+                <option value="thursday">Четверг</option>
+                <option value="friday">Пятница</option>
+                <option value="saturady">Суббота</option>
+                <option value="sunday">Воскресенье</option>
+            </select>
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+		</form>
+		<section class="task-list">
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+
+			</div>
+            
+		</section>
+	</main>
+
+	<script src="text/main.js"></script>
+</body>
+</html>
